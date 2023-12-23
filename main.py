@@ -30,7 +30,7 @@ def dailyTask():
         weekday = 0
         week += 1
     ##check if there's a black pixel
-    if pixels[week, weekday] == (0, 0, 0, 255):
+    if pixels[week, weekday] == 1:
         commit()
 
 #set up daily task
