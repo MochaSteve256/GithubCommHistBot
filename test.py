@@ -1,6 +1,6 @@
 from PIL import Image
 import datetime
-
+#load image
 img = Image.open("mochasteve.png")
 pixels = img.load()
 
